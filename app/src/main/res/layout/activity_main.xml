@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:weightSum="8"
+    android:background="#bdbdbd"
+
+    tools:context=".MainActivity">
+    <EditText
+        android:background="#ffffff"
+        android:textDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:hint="From"
+        android:paddingLeft="20dp"
+
+        android:textColorHint="#000"
+        android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F9F"
+
+        android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+        android:hint="To"
+        android:paddingLeft="20dp"
+
+        android:textColorHint="#000"></EditText>
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+
+        android:layout_height="0dp"
+        android:hint="Subject"
+        android:paddingLeft="20dp"
+        android:textColorHint="#000000"
+
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="#E9E"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Compose email"
+
+
+        android:paddingLeft="10dp"
+        android:paddingTop="0dp"
+        ></EditText>
+
+
+
+</LinearLayout>
